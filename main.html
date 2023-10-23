@@ -1,16 +1,46 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <style>
+    /* Container styles */
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f2f2f2;
+      height: 400px;
+	flex-direction:row;
+    }
+
+    /* Image styles */
+    .hero img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    /* "Explore Now" Button styles */
+    .explore-button {
+      padding: 15px 30px;
+      background-color: #e60023;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .explore-button:hover {
+      background-color: #c7001c;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <div class="hero">
+    <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hero Image">
+  </div>
+<div>
+	<h1>Welcome to my Pintrest clone</h1>
+	<p>Discover new inspiration and save your favourite ideas</p>
+	<a href="#" class="explore-button">Explore Now</a>
+</div>
 </body>
-
 </html>
